@@ -41,7 +41,7 @@ export interface HSVColor {
     source?: string;
 }
 
-export type Color = HEXColor | HSLColor | RGBColor | HSVColor;
+export type Color = string | HEXColor | HSLColor | RGBColor | HSVColor;
 
 export interface ColorState {
     hex: string;
